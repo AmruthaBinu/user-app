@@ -29,31 +29,22 @@ const ViewAll = () => {
                             <table className="table table-bordered table-striped table-hover">
                                 <thead className="table">
                                     <tr>
-                                        <th>ID</th>
-                                        <th>Name</th>
-                                        <th>Username</th>
-                                        <th>Email</th>
-                                        <th colSpan="5">Address</th>
-                                        <th>Phone</th>
-                                        <th>Website</th>
-                                        <th colSpan="3">Company</th>
-                                    </tr>
-                                    <tr>
-                                        <th colSpan="4"></th>
-                                        <th>Street</th>
-                                        <th>Suite</th>
-                                        <th>City</th>
-                                        <th>Zipcode</th>
-                                        <th>Geo (Lat, Lng)</th>
-                                        <th colSpan="5"></th>
-                                    </tr>
-                                    <tr>
-                                        <th colSpan="11"></th>
-                                        <th>Name</th>
-                                        <th>Catch Phrase</th>
-                                        <th>BS</th>
-                                    </tr>
-                                </thead>
+                                    <th scope="col">Id</th>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Username</th>
+                                    <th scope="col">Email</th>
+                                    <th scope="col">Address-street</th>
+                                    <th scope="col">Address-suite</th>
+                                    <th scope="col">Address-city</th>
+                                    <th scope="col">Address-zipcode</th>
+                                    <th scope="col">lat</th>
+                                    <th scope="col">long</th>
+                                    <th scope="col">Phone</th>
+                                    <th scope="col">Company name</th>
+                                    <th scope="col">Company catchPhrase</th>
+                                    <th scope="col">Company bs</th>
+                                </tr>
+                            </thead>
                                 {userData.map(
                                     (value, index) => {
                                         return (
