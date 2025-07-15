@@ -8,6 +8,7 @@ const AddUser = () => {
         <br />
         <div className="container">
             <div className="row">
+                <h3 className="text-center text-primary">Add User</h3>
                 <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                     <div className="row g-3">
                         <div className="col col-12 col-sm-6 col-md-6 col-xl-6 col-xxl-6">
